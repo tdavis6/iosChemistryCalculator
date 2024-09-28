@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6D514A2C813F9C00D2A997 /* chemistryCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D51492C813F9C00D2A997 /* chemistryCalculatorApp.swift */; };
+		CB6D514E2C813F9D00D2A997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6D514D2C813F9D00D2A997 /* Assets.xcassets */; };
+		CB6D51512C813F9D00D2A997 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6D51502C813F9D00D2A997 /* Preview Assets.xcassets */; };
+		CB6D51582C8144D300D2A997 /* molarMassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D51572C8144D300D2A997 /* molarMassView.swift */; };
+		CBB248F62CA7D38C005CFF8A /* molarMassCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB248F52CA7D387005CFF8A /* molarMassCalculator.swift */; };
+		CBB248FA2CA7DCD1005CFF8A /* stoichiometryCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB248F92CA7DCC4005CFF8A /* stoichiometryCalculator.swift */; };
+		CBB48AD32CA7BE4200E68D57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB48AD22CA7BE4200E68D57 /* ContentView.swift */; };
+		CBC6F38E2CA794CE004D56E9 /* stoichiometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC6F38D2CA794A7004D56E9 /* stoichiometryView.swift */; };
+		CBC6F3902CA7967F004D56E9 /* PeriodicTableJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = CBC6F38F2CA7967F004D56E9 /* PeriodicTableJSON.json */; };
+		CBC6F3922CA79BC1004D56E9 /* listOfElementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC6F3912CA79BBC004D56E9 /* listOfElementsView.swift */; };
+		CBC6F3942CA7A6B0004D56E9 /* aboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC6F3932CA7A6AD004D56E9 /* aboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB3D00B42CA7A9000059882C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CB6D51462C813F9C00D2A997 /* chemistryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chemistryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6D51492C813F9C00D2A997 /* chemistryCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemistryCalculatorApp.swift; sourceTree = "<group>"; };
+		CB6D514D2C813F9D00D2A997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB6D51502C813F9D00D2A997 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB6D51572C8144D300D2A997 /* molarMassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = molarMassView.swift; sourceTree = "<group>"; };
+		CBB248F52CA7D387005CFF8A /* molarMassCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = molarMassCalculator.swift; sourceTree = "<group>"; };
+		CBB248F92CA7DCC4005CFF8A /* stoichiometryCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoichiometryCalculator.swift; sourceTree = "<group>"; };
+		CBB48AD22CA7BE4200E68D57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBC6F38D2CA794A7004D56E9 /* stoichiometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stoichiometryView.swift; sourceTree = "<group>"; };
+		CBC6F38F2CA7967F004D56E9 /* PeriodicTableJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PeriodicTableJSON.json; sourceTree = "<group>"; };
+		CBC6F3912CA79BBC004D56E9 /* listOfElementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listOfElementsView.swift; sourceTree = "<group>"; };
+		CBC6F3932CA7A6AD004D56E9 /* aboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6D51432C813F9C00D2A997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6D513D2C813F9C00D2A997 = {
+			isa = PBXGroup;
+			children = (
+				CB6D51482C813F9C00D2A997 /* chemistryCalculator */,
+				CB6D51472C813F9C00D2A997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6D51472C813F9C00D2A997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6D51462C813F9C00D2A997 /* chemistryCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6D51482C813F9C00D2A997 /* chemistryCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D00B42CA7A9000059882C /* Info.plist */,
+				CB6D51492C813F9C00D2A997 /* chemistryCalculatorApp.swift */,
+				CBC6F3932CA7A6AD004D56E9 /* aboutView.swift */,
+				CBC6F38F2CA7967F004D56E9 /* PeriodicTableJSON.json */,
+				CB6D51572C8144D300D2A997 /* molarMassView.swift */,
+				CBB48AD22CA7BE4200E68D57 /* ContentView.swift */,
+				CBC6F3912CA79BBC004D56E9 /* listOfElementsView.swift */,
+				CBC6F38D2CA794A7004D56E9 /* stoichiometryView.swift */,
+				CBB248F92CA7DCC4005CFF8A /* stoichiometryCalculator.swift */,
+				CBB248F52CA7D387005CFF8A /* molarMassCalculator.swift */,
+				CB6D514D2C813F9D00D2A997 /* Assets.xcassets */,
+				CB6D514F2C813F9D00D2A997 /* Preview Content */,
+			);
+			path = chemistryCalculator;
+			sourceTree = "<group>";
+		};
+		CB6D514F2C813F9D00D2A997 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB6D51502C813F9D00D2A997 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6D51452C813F9C00D2A997 /* chemistryCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6D51542C813F9D00D2A997 /* Build configuration list for PBXNativeTarget "chemistryCalculator" */;
+			buildPhases = (
+				CB6D51422C813F9C00D2A997 /* Sources */,
+				CB6D51432C813F9C00D2A997 /* Frameworks */,
+				CB6D51442C813F9C00D2A997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chemistryCalculator;
+			productName = chemistryCalculator;
+			productReference = CB6D51462C813F9C00D2A997 /* chemistryCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6D513E2C813F9C00D2A997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CB6D51452C813F9C00D2A997 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CB6D51412C813F9C00D2A997 /* Build configuration list for PBXProject "chemistryCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB6D513D2C813F9C00D2A997;
+			packageReferences = (
+			);
+			productRefGroup = CB6D51472C813F9C00D2A997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6D51452C813F9C00D2A997 /* chemistryCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6D51442C813F9C00D2A997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6D51512C813F9D00D2A997 /* Preview Assets.xcassets in Resources */,
+				CB6D514E2C813F9D00D2A997 /* Assets.xcassets in Resources */,
+				CBC6F3902CA7967F004D56E9 /* PeriodicTableJSON.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6D51422C813F9C00D2A997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6D514A2C813F9C00D2A997 /* chemistryCalculatorApp.swift in Sources */,
+				CBB248F62CA7D38C005CFF8A /* molarMassCalculator.swift in Sources */,
+				CBC6F38E2CA794CE004D56E9 /* stoichiometryView.swift in Sources */,
+				CBB48AD32CA7BE4200E68D57 /* ContentView.swift in Sources */,
+				CBC6F3922CA79BC1004D56E9 /* listOfElementsView.swift in Sources */,
+				CBB248FA2CA7DCD1005CFF8A /* stoichiometryCalculator.swift in Sources */,
+				CBC6F3942CA7A6B0004D56E9 /* aboutView.swift in Sources */,
+				CB6D51582C8144D300D2A997 /* molarMassView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB6D51522C813F9D00D2A997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB6D51532C813F9D00D2A997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB6D51552C813F9D00D2A997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chemistryCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = QLHMS7XY58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = chemistryCalculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chemistry Calculator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tylerdavis.chemistryCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB6D51562C813F9D00D2A997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chemistryCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = QLHMS7XY58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = chemistryCalculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chemistry Calculator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tylerdavis.chemistryCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6D51412C813F9C00D2A997 /* Build configuration list for PBXProject "chemistryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6D51522C813F9D00D2A997 /* Debug */,
+				CB6D51532C813F9D00D2A997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6D51542C813F9D00D2A997 /* Build configuration list for PBXNativeTarget "chemistryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6D51552C813F9D00D2A997 /* Debug */,
+				CB6D51562C813F9D00D2A997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6D513E2C813F9C00D2A997 /* Project object */;
+}
