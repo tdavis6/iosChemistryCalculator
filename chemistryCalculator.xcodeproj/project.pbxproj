@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0D8FB02CA8B29C00CB8092 /* waveCalculationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FAF2CA8B29600CB8092 /* waveCalculationsView.swift */; };
+		CB0D8FB62CA8B37B00CB8092 /* balmerRydbergView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FB52CA8B37500CB8092 /* balmerRydbergView.swift */; };
+		CB0D8FB82CA8B77D00CB8092 /* waveLengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FB72CA8B77400CB8092 /* waveLengthView.swift */; };
+		CB0D8FBB2CA8B7C200CB8092 /* waveNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FBA2CA8B7BB00CB8092 /* waveNumberView.swift */; };
+		CB0D8FBD2CA8BBA300CB8092 /* frequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FBC2CA8BBA000CB8092 /* frequencyView.swift */; };
 		CB6D514A2C813F9C00D2A997 /* chemistryCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D51492C813F9C00D2A997 /* chemistryCalculatorApp.swift */; };
 		CB6D514E2C813F9D00D2A997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6D514D2C813F9D00D2A997 /* Assets.xcassets */; };
 		CB6D51512C813F9D00D2A997 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6D51502C813F9D00D2A997 /* Preview Assets.xcassets */; };
@@ -21,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB0D8FAF2CA8B29600CB8092 /* waveCalculationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waveCalculationsView.swift; sourceTree = "<group>"; };
+		CB0D8FB52CA8B37500CB8092 /* balmerRydbergView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balmerRydbergView.swift; sourceTree = "<group>"; };
+		CB0D8FB72CA8B77400CB8092 /* waveLengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waveLengthView.swift; sourceTree = "<group>"; };
+		CB0D8FBA2CA8B7BB00CB8092 /* waveNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waveNumberView.swift; sourceTree = "<group>"; };
+		CB0D8FBC2CA8BBA000CB8092 /* frequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frequencyView.swift; sourceTree = "<group>"; };
 		CB3D00B42CA7A9000059882C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CB6D51462C813F9C00D2A997 /* chemistryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chemistryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6D51492C813F9C00D2A997 /* chemistryCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemistryCalculatorApp.swift; sourceTree = "<group>"; };
@@ -47,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB0D8FB92CA8B78500CB8092 /* waveCalculations */ = {
+			isa = PBXGroup;
+			children = (
+				CB0D8FBC2CA8BBA000CB8092 /* frequencyView.swift */,
+				CB0D8FB52CA8B37500CB8092 /* balmerRydbergView.swift */,
+				CB0D8FB72CA8B77400CB8092 /* waveLengthView.swift */,
+				CB0D8FBA2CA8B7BB00CB8092 /* waveNumberView.swift */,
+			);
+			path = waveCalculations;
+			sourceTree = "<group>";
+		};
 		CB6D513D2C813F9C00D2A997 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +93,8 @@
 				CBC6F38F2CA7967F004D56E9 /* PeriodicTableJSON.json */,
 				CB6D51572C8144D300D2A997 /* molarMassView.swift */,
 				CBB48AD22CA7BE4200E68D57 /* ContentView.swift */,
+				CB0D8FAF2CA8B29600CB8092 /* waveCalculationsView.swift */,
+				CB0D8FB92CA8B78500CB8092 /* waveCalculations */,
 				CBC6F3912CA79BBC004D56E9 /* listOfElementsView.swift */,
 				CBC6F38D2CA794A7004D56E9 /* stoichiometryView.swift */,
 				CBB248F92CA7DCC4005CFF8A /* stoichiometryCalculator.swift */,
@@ -163,12 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0D8FB82CA8B77D00CB8092 /* waveLengthView.swift in Sources */,
 				CB6D514A2C813F9C00D2A997 /* chemistryCalculatorApp.swift in Sources */,
 				CBB248F62CA7D38C005CFF8A /* molarMassCalculator.swift in Sources */,
 				CBC6F38E2CA794CE004D56E9 /* stoichiometryView.swift in Sources */,
 				CBB48AD32CA7BE4200E68D57 /* ContentView.swift in Sources */,
+				CB0D8FB02CA8B29C00CB8092 /* waveCalculationsView.swift in Sources */,
 				CBC6F3922CA79BC1004D56E9 /* listOfElementsView.swift in Sources */,
+				CB0D8FBB2CA8B7C200CB8092 /* waveNumberView.swift in Sources */,
 				CBB248FA2CA7DCD1005CFF8A /* stoichiometryCalculator.swift in Sources */,
+				CB0D8FB62CA8B37B00CB8092 /* balmerRydbergView.swift in Sources */,
+				CB0D8FBD2CA8BBA300CB8092 /* frequencyView.swift in Sources */,
 				CBC6F3942CA7A6B0004D56E9 /* aboutView.swift in Sources */,
 				CB6D51582C8144D300D2A997 /* molarMassView.swift in Sources */,
 			);
@@ -303,7 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"chemistryCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = QLHMS7XY58;
 				ENABLE_PREVIEWS = YES;
@@ -327,10 +355,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -341,7 +370,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"chemistryCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = QLHMS7XY58;
 				ENABLE_PREVIEWS = YES;
@@ -365,10 +394,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

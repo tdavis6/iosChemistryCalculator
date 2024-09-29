@@ -102,6 +102,12 @@ struct listOfElementsView: View {
                     else if element.electron_configuration.lowercased().hasSuffix(searchText.lowercased()) {
                         elementRowView(element: element)
                     }
+                    else if element.category.lowercased().contains(searchText.lowercased()) {
+                        elementRowView(element: element)
+                    }
+                    else if element.phase!.lowercased().contains(searchText.lowercased()) {
+                        elementRowView(element: element)
+                    }
                 }
             }
         }

@@ -9,6 +9,9 @@ import SwiftUI
 
 let elementsData = Bundle.main.decode(Elements.self, from: "PeriodicTableJSON.json")
 let elementsList: [element] = elementsData.elements
+let speedOfLight = 299_792_458.0  //Speed of light in m s^-1
+let rydbergConstantWavelength = 10973731.6  //Rydberg's constant in m
+let rydbergConstantEnergy = 2.18 * 1/1000000000000000000 //Rydberg's constant in J
 
 struct Elements: Hashable, Codable {
     let elements: [element]
@@ -104,6 +107,9 @@ struct ContentView: View {
                 .buttonStyle(.bordered)
                 .padding()
                 NavigationLink(destination: stoichiometryView()) {Text("Stoichiometry Calculator")}
+                .buttonStyle(.bordered)
+                .padding()
+                NavigationLink(destination: waveCalculationsView()) {Text("Wave Calculations")}
                 .buttonStyle(.bordered)
                 .padding()
                 Spacer()

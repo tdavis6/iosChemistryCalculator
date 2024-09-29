@@ -33,8 +33,8 @@ struct aboutView: View {
                 .padding()
             Text("[GitHub Repository](https://github.com/tdavis6/iosChemistryCalculator)")
                 .padding()
-            Text("[Contact Me](mailto:coding@tydavis.dev)")
-                .padding()
+            /*Text("[Contact Me](mailto:coding@tydavis.dev)")
+                .padding()*/
             Text("This application is licensed under the MIT License, found [here](https://github.com/tdavis6/Restaurant-Decider/blob/main/LICENSE).")
                 .padding()
             Text("Element Data can be found [here](https://github.com/Bowserinator/Periodic-Table-JSON).")

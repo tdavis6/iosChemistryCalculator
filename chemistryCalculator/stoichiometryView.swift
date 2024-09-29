@@ -92,7 +92,7 @@ struct stoichiometryView: View {
                     
                     if stoichiometryCalculatedData.finalValue != 0 {
                         if stoichiometryCalculatedData.finalValue >= 10000 {
-                            Text("The final value is \(String(format: "%e", stoichiometryCalculatedData.finalValue))\(stoichiometryCalculatedData.finalUnits) of \(finalMolecule).")
+                            Text("The final value is \(String(format: "%E", stoichiometryCalculatedData.finalValue))\(stoichiometryCalculatedData.finalUnits) of \(finalMolecule).")
                                 .padding()
                         }
                         else {
