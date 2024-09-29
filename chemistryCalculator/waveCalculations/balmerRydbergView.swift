@@ -90,11 +90,11 @@ struct balmerRydbergView: View {
                         balmerRydbergEnergyAnswer = balmerRydbergEnergy(initial: initial, final: final)
                     }
                 VStack {
-                    Text("The wavelength of the emission of this transition is \(String(format: "%e", balmerRydbergWavelengthAnswer)) m.")
+                    Text("λ = \(String(format: "%E", balmerRydbergWavelengthAnswer)) m.")
                         .padding()
-                    Text("The frequency of this transition is \(String(format: "%e", balmerRydbergFrequencyAnswer)) Hz.")
+                    Text("𝜈 = \(String(format: "%E", balmerRydbergFrequencyAnswer)) Hz.")
                         .padding()
-                    Text("The energy of this transition is \(String(format: "%e", balmerRydbergEnergyAnswer)) J.")
+                    Text("E = \(String(format: "%E", balmerRydbergEnergyAnswer)) J.")
                         .padding()
                 }
                 .frame(width: 350)

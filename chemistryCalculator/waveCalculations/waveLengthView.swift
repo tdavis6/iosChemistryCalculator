@@ -34,7 +34,7 @@ struct waveLengthView: View {
                     .focused($focusedField, equals: .frequencyString)
                     .keyboardType(.decimalPad)
                     .padding()
-                Text("The wavelength, or λ, is \(String(format: "%E", speedOfLight/frequency)) meters.")
+                Text("λ = \(String(format: "%E", speedOfLight/frequency)) m.")
                 Spacer()
             }
         }

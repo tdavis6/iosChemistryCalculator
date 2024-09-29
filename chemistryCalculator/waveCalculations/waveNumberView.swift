@@ -34,7 +34,7 @@ struct waveNumberView: View {
                     .focused($focusedField, equals: .wavelengthString)
                     .keyboardType(.decimalPad)
                     .padding()
-                Text("The wavenumber is \(String(format: "%E", 1/wavelength)).")
+                Text("Wavenumber = \(String(format: "%E", 1/wavelength)).")
                 Spacer()
             }
         }
