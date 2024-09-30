@@ -51,7 +51,7 @@ struct balmerRydbergView: View {
                     focusedField = nil
                 }
             VStack(alignment: .center) {
-                Text("Input the initial atomic number")
+                Text("Input the atomic number of the starting electron shell.")
                 TextField("Initial atomic number", text: $initialString, axis: .vertical)
                     .textFieldStyle(.roundedBorder)
                     .frame(width: 275, height: 50)
@@ -61,7 +61,7 @@ struct balmerRydbergView: View {
                     .focused($focusedField, equals: .initialString)
                     .keyboardType(.decimalPad)
                     .padding()
-                Text("Input the final atomic number")
+                Text("Input the atomic number of the ending electron shell.")
                 TextField("Final atomic number", text: $finalString, axis: .vertical)
                     .textFieldStyle(.roundedBorder)
                     .frame(width: 275, height: 50)
@@ -102,7 +102,7 @@ struct balmerRydbergView: View {
                 }
                 else {
                     VStack {
-                        Text("Please enter an inital and final atomic number.")
+                        Text("Please enter an initial and final electron shell.")
                             .padding()
                     }
                     .frame(width: 350)
