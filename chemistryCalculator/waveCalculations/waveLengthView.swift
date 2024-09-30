@@ -34,7 +34,12 @@ struct waveLengthView: View {
                     .focused($focusedField, equals: .frequencyString)
                     .keyboardType(.decimalPad)
                     .padding()
-                Text("λ = \(String(format: "%E", speedOfLight/frequency)) m.")
+                if frequency != 0 {
+                    Text("λ = \(String(format: "%E", speedOfLight/frequency)) m.")
+                }
+                else {
+                    Text("Please enter a frequency.")
+                }
                 Spacer()
             }
         }

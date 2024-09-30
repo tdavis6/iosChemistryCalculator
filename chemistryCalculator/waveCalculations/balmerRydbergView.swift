@@ -89,15 +89,24 @@ struct balmerRydbergView: View {
                     .onChange(of: final) {
                         balmerRydbergEnergyAnswer = balmerRydbergEnergy(initial: initial, final: final)
                     }
-                VStack {
-                    Text("λ = \(String(format: "%E", balmerRydbergWavelengthAnswer)) m.")
-                        .padding()
-                    Text("𝜈 = \(String(format: "%E", balmerRydbergFrequencyAnswer)) Hz.")
-                        .padding()
-                    Text("E = \(String(format: "%E", balmerRydbergEnergyAnswer)) J.")
-                        .padding()
+                if !initial.isZero && !final.isZero {
+                    VStack {
+                        Text("λ = \(String(format: "%E", balmerRydbergWavelengthAnswer)) m.")
+                            .padding()
+                        Text("𝜈 = \(String(format: "%E", balmerRydbergFrequencyAnswer)) Hz.")
+                            .padding()
+                        Text("E = \(String(format: "%E", balmerRydbergEnergyAnswer)) J.")
+                            .padding()
+                    }
+                    .frame(width: 350)
                 }
-                .frame(width: 350)
+                else {
+                    VStack {
+                        Text("Please enter an inital and final atomic number.")
+                            .padding()
+                    }
+                    .frame(width: 350)
+                }
                 Spacer()
             }
         }
