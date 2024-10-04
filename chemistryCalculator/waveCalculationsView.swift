@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct waveCalculationsView: View {
-    var selections = ["Wave Length", "Frequency", "Wave Number", "Balmer-Rydberg", "De Broglie"]
+    let selections = ["Wave Length", "Frequency", "Wave Number", "Balmer-Rydberg", "De Broglie"]
     @State private var selected: String = "Wave Length"
     var body: some View {
         NavigationView() {

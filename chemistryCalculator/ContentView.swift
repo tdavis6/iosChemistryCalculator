@@ -10,10 +10,10 @@ import SwiftUI
 let elementsData = Bundle.main.decode(Elements.self, from: "PeriodicTableJSON.json")
 let elementsList: [element] = elementsData.elements
 let speedOfLight = 299_792_458.0  //Speed of light in m s^-1
-let rydbergConstantWavelength = 10973731.6  //Rydberg's constant in m
+let rydbergConstantWavelength = 10973731.568157  //Rydberg's constant in inverse m
 let rydbergConstantEnergy = 2.1798723611030 * _math.pow(10,-18) //Rydberg's constant in J
 let plancksConstant = 6.62607015 * _math.pow(10,-34)
-    //Planks's constant in Js https://www.nist.gov/physics/what-planck-constant
+    //Planks's constant in Js
 
 struct Elements: Hashable, Codable {
     let elements: [element]
@@ -114,6 +114,9 @@ struct ContentView: View {
                 NavigationLink(destination: waveCalculationsView()) {Text("Wave Calculations")}
                 .buttonStyle(.bordered)
                 .padding()
+                /*NavigationLink(destination: molecularGeometryView()) {Text("Molecular Geometry Table")}
+                .buttonStyle(.bordered)
+                .padding()*/
                 Spacer()
                 /*NavigationLink(destination: settingsView()) {Text("Settings")}
                     .padding(0)

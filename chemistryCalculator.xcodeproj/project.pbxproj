@@ -13,6 +13,7 @@
 		CB0D8FBB2CA8B7C200CB8092 /* waveNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FBA2CA8B7BB00CB8092 /* waveNumberView.swift */; };
 		CB0D8FBD2CA8BBA300CB8092 /* frequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FBC2CA8BBA000CB8092 /* frequencyView.swift */; };
 		CB463C352CB0647700304A17 /* deBroglieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB463C342CB0647700304A17 /* deBroglieView.swift */; };
+		CB463C372CB0680C00304A17 /* molecularGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB463C362CB0680400304A17 /* molecularGeometryView.swift */; };
 		CB6D514A2C813F9C00D2A997 /* chemistryCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D51492C813F9C00D2A997 /* chemistryCalculatorApp.swift */; };
 		CB6D514E2C813F9D00D2A997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6D514D2C813F9D00D2A997 /* Assets.xcassets */; };
 		CB6D51512C813F9D00D2A997 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6D51502C813F9D00D2A997 /* Preview Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		CB0D8FBC2CA8BBA000CB8092 /* frequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frequencyView.swift; sourceTree = "<group>"; };
 		CB3D00B42CA7A9000059882C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CB463C342CB0647700304A17 /* deBroglieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deBroglieView.swift; sourceTree = "<group>"; };
+		CB463C362CB0680400304A17 /* molecularGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = molecularGeometryView.swift; sourceTree = "<group>"; };
 		CB6D51462C813F9C00D2A997 /* chemistryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chemistryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6D51492C813F9C00D2A997 /* chemistryCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemistryCalculatorApp.swift; sourceTree = "<group>"; };
 		CB6D514D2C813F9D00D2A997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				CBC6F38F2CA7967F004D56E9 /* PeriodicTableJSON.json */,
 				CB6D51572C8144D300D2A997 /* molarMassView.swift */,
 				CBB48AD22CA7BE4200E68D57 /* ContentView.swift */,
+				CB463C362CB0680400304A17 /* molecularGeometryView.swift */,
 				CB0D8FAF2CA8B29600CB8092 /* waveCalculationsView.swift */,
 				CB0D8FB92CA8B78500CB8092 /* waveCalculations */,
 				CBC6F3912CA79BBC004D56E9 /* listOfElementsView.swift */,
@@ -194,6 +197,7 @@
 				CBB248F62CA7D38C005CFF8A /* molarMassCalculator.swift in Sources */,
 				CBC6F38E2CA794CE004D56E9 /* stoichiometryView.swift in Sources */,
 				CBB48AD32CA7BE4200E68D57 /* ContentView.swift in Sources */,
+				CB463C372CB0680C00304A17 /* molecularGeometryView.swift in Sources */,
 				CB0D8FB02CA8B29C00CB8092 /* waveCalculationsView.swift in Sources */,
 				CBC6F3922CA79BC1004D56E9 /* listOfElementsView.swift in Sources */,
 				CB0D8FBB2CA8B7C200CB8092 /* waveNumberView.swift in Sources */,

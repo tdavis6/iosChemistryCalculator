@@ -38,6 +38,9 @@ struct aboutView: View {
             Text("This application's license is found [here](https://github.com/tdavis6/iosChemistryCalculator/blob/main/LICENSE).")
                 .padding()
             Text("Element Data can be found [here](https://github.com/Bowserinator/Periodic-Table-JSON).")
+                .padding()
+            Text("The values of all constants can be found [here](https://physics.nist.gov/cuu/Constants/index.html).")
+                .padding()
         }
     }
 }
