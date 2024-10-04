@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct waveCalculationsView: View {
-    var selections = ["Wave Length", "Frequency", "Wave Number", "Balmer-Rydberg"]
+    var selections = ["Wave Length", "Frequency", "Wave Number", "Balmer-Rydberg", "De Broglie"]
     @State private var selected: String = "Wave Length"
     var body: some View {
         NavigationView() {
@@ -32,6 +32,9 @@ struct waveCalculationsView: View {
                 }
                 else if selected == "Balmer-Rydberg" {
                     balmerRydbergView()
+                }
+                else if selected == "De Broglie" {
+                    deBroglieView()
                 }
             }
         }

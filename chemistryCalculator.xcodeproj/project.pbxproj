@@ -12,6 +12,7 @@
 		CB0D8FB82CA8B77D00CB8092 /* waveLengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FB72CA8B77400CB8092 /* waveLengthView.swift */; };
 		CB0D8FBB2CA8B7C200CB8092 /* waveNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FBA2CA8B7BB00CB8092 /* waveNumberView.swift */; };
 		CB0D8FBD2CA8BBA300CB8092 /* frequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0D8FBC2CA8BBA000CB8092 /* frequencyView.swift */; };
+		CB463C352CB0647700304A17 /* deBroglieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB463C342CB0647700304A17 /* deBroglieView.swift */; };
 		CB6D514A2C813F9C00D2A997 /* chemistryCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D51492C813F9C00D2A997 /* chemistryCalculatorApp.swift */; };
 		CB6D514E2C813F9D00D2A997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6D514D2C813F9D00D2A997 /* Assets.xcassets */; };
 		CB6D51512C813F9D00D2A997 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6D51502C813F9D00D2A997 /* Preview Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		CB0D8FBA2CA8B7BB00CB8092 /* waveNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waveNumberView.swift; sourceTree = "<group>"; };
 		CB0D8FBC2CA8BBA000CB8092 /* frequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frequencyView.swift; sourceTree = "<group>"; };
 		CB3D00B42CA7A9000059882C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CB463C342CB0647700304A17 /* deBroglieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deBroglieView.swift; sourceTree = "<group>"; };
 		CB6D51462C813F9C00D2A997 /* chemistryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chemistryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6D51492C813F9C00D2A997 /* chemistryCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemistryCalculatorApp.swift; sourceTree = "<group>"; };
 		CB6D514D2C813F9D00D2A997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		CB0D8FB92CA8B78500CB8092 /* waveCalculations */ = {
 			isa = PBXGroup;
 			children = (
+				CB463C342CB0647700304A17 /* deBroglieView.swift */,
 				CB0D8FBC2CA8BBA000CB8092 /* frequencyView.swift */,
 				CB0D8FB52CA8B37500CB8092 /* balmerRydbergView.swift */,
 				CB0D8FB72CA8B77400CB8092 /* waveLengthView.swift */,
@@ -197,6 +200,7 @@
 				CBB248FA2CA7DCD1005CFF8A /* stoichiometryCalculator.swift in Sources */,
 				CB0D8FB62CA8B37B00CB8092 /* balmerRydbergView.swift in Sources */,
 				CB0D8FBD2CA8BBA300CB8092 /* frequencyView.swift in Sources */,
+				CB463C352CB0647700304A17 /* deBroglieView.swift in Sources */,
 				CBC6F3942CA7A6B0004D56E9 /* aboutView.swift in Sources */,
 				CB6D51582C8144D300D2A997 /* molarMassView.swift in Sources */,
 			);
@@ -331,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"chemistryCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = QLHMS7XY58;
 				ENABLE_PREVIEWS = YES;
@@ -350,7 +354,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.tylerdavis.chemistryCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -370,7 +374,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_ASSET_PATHS = "\"chemistryCalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = QLHMS7XY58;
 				ENABLE_PREVIEWS = YES;
@@ -389,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.tylerdavis.chemistryCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
